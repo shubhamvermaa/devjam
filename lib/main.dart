@@ -17,7 +17,6 @@ class MyApp extends StatelessWidget {
         
         debugShowCheckedModeBanner: false,
         home: Scaffold(
-            drawer: Drawer(),
             backgroundColor: Color.fromARGB(255, 38, 38, 38),
             appBar: AppBar(
               shadowColor: Colors.white,
@@ -34,7 +33,7 @@ class MyApp extends StatelessWidget {
                 children: [
 
                   SizedBox(
-                    height: 50,
+                    height: 40,
                   ),
 
                   Center(
